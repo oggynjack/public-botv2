@@ -1,12 +1,12 @@
 import React from 'react';
-import { HomeIcon, CogIcon, LogoutIcon, MusicNoteIcon, UserGroupIcon } from '@heroicons/react/outline';
+import { HomeIcon, Cog6ToothIcon, ArrowRightOnRectangleIcon, MusicalNoteIcon, UserGroupIcon } from '@heroicons/react/24/outline';
 import { motion } from 'framer-motion';
 
 const navItems = [
   { name: 'Dashboard', icon: <HomeIcon className="h-6 w-6" /> },
-  { name: 'Bot Controls', icon: <MusicNoteIcon className="h-6 w-6" /> },
-  { name: 'Account Settings', icon: <CogIcon className="h-6 w-6" /> },
-  { name: 'Logout', icon: <LogoutIcon className="h-6 w-6" /> },
+  { name: 'Bot Controls', icon: <MusicalNoteIcon className="h-6 w-6" /> },
+  { name: 'Account Settings', icon: <Cog6ToothIcon className="h-6 w-6" /> },
+  { name: 'Logout', icon: <ArrowRightOnRectangleIcon className="h-6 w-6" /> },
 ];
 
 export default function Navbar({ active, onNavigate }) {

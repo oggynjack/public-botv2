@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { UserIcon, ShieldCheckIcon, ServerIcon } from '@heroicons/react/outline';
+import { UserIcon, ShieldCheckIcon, ServerIcon } from '@heroicons/react/24/outline';
 
 const roles = [
   { name: 'Free User', icon: <UserIcon className="h-5 w-5" /> },
